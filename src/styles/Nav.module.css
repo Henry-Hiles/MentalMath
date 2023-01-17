@@ -1,0 +1,56 @@
+.nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.nav ul {
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    gap: 20px;
+    align-items: center;
+    position: -webkit-sticky;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav ul li {
+    display: flex;
+    gap: 10px;
+}
+
+.nav ul li * {
+    font-size: 1.25em;
+}
+
+.nav ul li span {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.nav ul li button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.nav ul li .modeButton:not(.active) {
+    text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+    .nav ul {
+        background-color: #161f27;
+    }
+}
+
+.active {
+    font-weight: bold;
+}
