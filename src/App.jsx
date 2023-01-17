@@ -103,11 +103,12 @@ export const App = () => {
 
                                     setIndex((index) => ++index)
                                     event.target.value = ""
-                                    setAnswerTimeout(
-                                        setTimeout(() => {
-                                            setCorrectAnswer(true)
-                                        }, 15000)
-                                    )
+                                    if (index === numbers?.length)
+                                        setAnswerTimeout(
+                                            setTimeout(() => {
+                                                setCorrectAnswer(true)
+                                            }, 15000)
+                                        )
                                 }
                             }}
                         />

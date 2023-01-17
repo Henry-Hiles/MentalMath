@@ -7,41 +7,46 @@ export const Nav = ({ mode, setMode, modeNumbers, setModeNumbers }) => {
         <nav className={styles.nav}>
             <ul>
                 <li>
-                    <h1>Mental Math</h1>
+                    <h1 id={styles.header}> Mental Math</h1>
                 </li>
                 <li>
-                    <button
-                        onClick={() =>
-                            setModeNumbers((numbers) =>
-                                numbers > 2 ? --numbers : numbers
-                            )
-                        }
-                    >
-                        <FaMinus />
-                    </button>
-                    <span>{modeNumbers}</span>
-                    <button
-                        onClick={() => setModeNumbers((numbers) => ++numbers)}
-                    >
-                        <FaPlus />
-                    </button>
-                    <br />
-                    <button
-                        className={`${
-                            mode == Modes.Addition ? styles.active : ""
-                        } ${styles.modeButton}`}
-                        onClick={() => setMode(Modes.Addition)}
-                    >
-                        Addition
-                    </button>
-                    <button
-                        className={`${
-                            mode == Modes.Subtraction ? styles.active : ""
-                        } ${styles.modeButton}`}
-                        onClick={() => setMode(Modes.Subtraction)}
-                    >
-                        Subtraction
-                    </button>
+                    <div id={styles.modeNumbers}>
+                        <button
+                            onClick={() =>
+                                setModeNumbers((numbers) =>
+                                    numbers > 2 ? --numbers : numbers
+                                )
+                            }
+                        >
+                            <FaMinus />
+                        </button>
+                        <span>{modeNumbers}</span>
+                        <button
+                            onClick={() =>
+                                setModeNumbers((numbers) => ++numbers)
+                            }
+                        >
+                            <FaPlus />
+                        </button>
+                    </div>
+                    <div>
+                        <button
+                            className={`${
+                                mode == Modes.Addition ? styles.active : ""
+                            } ${styles.modeButton}`}
+                            onClick={() => setMode(Modes.Addition)}
+                        >
+                            Addition
+                        </button>
+                        <button
+                            className={`${
+                                mode == Modes.Subtraction ? styles.active : ""
+                            } ${styles.modeButton}`}
+                            onClick={() => setMode(Modes.Subtraction)}
+                        >
+                            Subtraction
+                        </button>
+                    </div>
                 </li>
             </ul>
         </nav>

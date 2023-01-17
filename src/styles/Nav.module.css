@@ -20,29 +20,41 @@
     justify-content: space-between;
 }
 
-.nav ul li {
+.nav li {
     display: flex;
     gap: 10px;
 }
 
-.nav ul li * {
+.nav div {
+    display: flex;
+}
+
+.nav li * {
     font-size: 1.25em;
 }
 
-.nav ul li span {
+.nav span {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
 }
 
-.nav ul li button {
+.nav button {
     border: none;
     background: transparent;
     cursor: pointer;
 }
 
-.nav ul li .modeButton:not(.active) {
+.nav .modeButton:not(.active) {
     text-decoration: underline;
+}
+
+.active {
+    font-weight: bold;
+}
+
+#modeNumbers {
+    gap: 5px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -51,6 +63,12 @@
     }
 }
 
-.active {
-    font-weight: bold;
+@media (max-width: 600px) {
+    #header {
+        display: none;
+    }
+
+    .nav ul {
+        justify-content: center;
+    }
 }
