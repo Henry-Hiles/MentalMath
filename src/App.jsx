@@ -75,9 +75,9 @@ export const App = () => {
                 ) : (
                     <h3 className={styles.numbers}>
                         {numbers?.[index].map((number, index) => (
-                            <>
+                            <span key={index}>
                                 {index == 0 || <Operator />} {number}{" "}
-                            </>
+                            </span>
                         ))}
                         <FaEquals />{" "}
                         <input
@@ -99,14 +99,16 @@ export const App = () => {
                                             (answers) => ++answers
                                         )
 
-                                    setCorrectAnswer(!isCorrect)
-
                                     setIndex((index) => ++index)
+
+                                    setCorrectAnswer(isCorrect)
+
                                     event.target.value = ""
-                                    if (index === numbers?.length)
+                                    if (index + 1 != numbers?.length)
                                         setAnswerTimeout(
                                             setTimeout(() => {
-                                                setCorrectAnswer(true)
+                                                setCorrectAnswer(false)
+                                                setIndex((index) => ++index)
                                             }, 15000)
                                         )
                                 }
@@ -114,7 +116,7 @@ export const App = () => {
                         />
                     </h3>
                 )}
-                {correctAnswer === true && (
+                {correctAnswer === false && (
                     <h1 className={styles.wrongAnswer}>
                         <SlClose /> Wrong Answer.{" "}
                         <span>
@@ -123,7 +125,7 @@ export const App = () => {
                     </h1>
                 )}
 
-                {correctAnswer === false && (
+                {correctAnswer === true && (
                     <h1 className={styles.correctAnswer}>
                         <SlCheck /> Correct!
                     </h1>
