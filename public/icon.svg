@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733334 67.733335"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="mentalMathThumb.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.3576599"
+     inkscape:cx="-135.15903"
+     inkscape:cy="153.20479"
+     inkscape:window-width="1904"
+     inkscape:window-height="975"
+     inkscape:window-x="35"
+     inkscape:window-y="32"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#354b5f;fill-opacity:1;stroke-width:0"
+       id="path234"
+       cx="33.866665"
+       cy="33.866665"
+       r="33.866665" />
+    <g
+       aria-label="+"
+       id="text1156"
+       style="font-size:66.831px;line-height:0;font-family:'RobotoMono Nerd Font';-inkscape-font-specification:'RobotoMono Nerd Font, Normal';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0" />
+    <path
+       style="color:#000000;fill:#4e94e4;stroke-width:1.32292;-inkscape-stroke:none"
+       d="m 32.991785,16.91628 c -1.513117,0 -2.7311,1.218499 -2.7311,2.731616 V 30.260685 H 19.647896 c -1.513117,0 -2.731616,1.217983 -2.731616,2.7311 v 1.749764 c 0,1.513117 1.218499,2.731099 2.731616,2.731099 h 10.612789 v 10.612789 c 0,1.513117 1.217983,2.731616 2.7311,2.731616 h 1.749764 c 1.513117,0 2.731099,-1.218499 2.731099,-2.731616 V 37.472648 h 10.612789 c 1.513117,0 2.731616,-1.217982 2.731616,-2.731099 v -1.749764 c 0,-1.513117 -1.218499,-2.7311 -2.731616,-2.7311 H 37.472648 V 19.647896 c 0,-1.513117 -1.217982,-2.731616 -2.731099,-2.731616 z"
+       id="path1437" />
+    <path
+       style="color:#000000;fill:none;stroke:none;stroke-width:1.32292;-inkscape-stroke:none"
+       d="m 32.991785,16.91628 c -1.513117,0 -2.7311,1.218499 -2.7311,2.731616 V 30.260685 H 19.647896 c -1.513117,0 -2.731616,1.217983 -2.731616,2.7311 v 1.749764 c 0,1.513117 1.218499,2.731099 2.731616,2.731099 h 10.612789 v 10.612789 c 0,1.513117 1.217983,2.731616 2.7311,2.731616 h 1.749764 c 1.513117,0 2.731099,-1.218499 2.731099,-2.731616 V 37.472648 h 10.612789 c 1.513117,0 2.731616,-1.217982 2.731616,-2.731099 v -1.749764 c 0,-1.513117 -1.218499,-2.7311 -2.731616,-2.7311 H 37.472648 V 19.647896 c 0,-1.513117 -1.217982,-2.731616 -2.731099,-2.731616 z"
+       id="path1451" />
+    <path
+       style="color:#000000;fill:none;stroke:none;-inkscape-stroke:none"
+       d="m 32.992187,16.253906 c -1.868225,0 -3.392578,1.526456 -3.392578,3.394531 v 9.951172 h -9.951172 c -1.868075,0 -3.394531,1.524353 -3.394531,3.392578 v 1.75 c 0,1.868226 1.526456,3.392579 3.394531,3.392579 h 9.951172 v 9.951171 c 0,1.868076 1.524353,3.392579 3.392578,3.392579 h 1.75 c 1.868226,0 3.392579,-1.524503 3.392579,-3.392579 v -9.951171 h 9.951171 c 1.868076,0 3.392579,-1.524353 3.392579,-3.392579 v -1.75 c 0,-1.868225 -1.524503,-3.392578 -3.392579,-3.392578 h -9.951171 v -9.951172 c 0,-1.868075 -1.524353,-3.394531 -3.392579,-3.394531 z m 0,1.324219 h 1.75 c 1.158006,0 2.06836,0.912157 2.06836,2.070312 v 11.273438 h 11.27539 c 1.158156,0 2.070313,0.912307 2.070313,2.070312 v 1.75 c 0,1.158006 -0.912157,2.06836 -2.070313,2.06836 h -11.27539 v 11.27539 c 0,1.158156 -0.910354,2.070313 -2.06836,2.070313 h -1.75 c -1.158005,0 -2.070312,-0.912157 -2.070312,-2.070313 V 36.810547 H 19.648437 c -1.158155,0 -2.070312,-0.910354 -2.070312,-2.06836 v -1.75 c 0,-1.158005 0.912157,-2.070312 2.070312,-2.070312 H 30.921875 V 19.648437 c 0,-1.158155 0.912307,-2.070312 2.070312,-2.070312 z"
+       id="path1453" />
+  </g>
+</svg>
